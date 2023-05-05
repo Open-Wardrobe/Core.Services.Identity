@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>OpenWardrobe.Core.Services.Identity.Api</AssemblyName>
+    <DefaultNamespace>OpenWardrobe.Core.Services.Identity.Api</DefaultNamespace>
+    <RootNamespace>OpenWardrobe.Core.Services.Identity.Api</RootNamespace>
+  </PropertyGroup>
+
+</Project>
