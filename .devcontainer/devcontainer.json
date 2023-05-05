@@ -22,7 +22,8 @@
 				"Fudge.auto-using",
 				"adrianwilczynski.namespace",
 				"jesschadwick.nuget-reverse-package-search",
-				"jmrog.vscode-nuget-package-manager"
+				"jmrog.vscode-nuget-package-manager",
+				"GitHub.vscode-pull-request-github"
 			]
 		}
 	},
