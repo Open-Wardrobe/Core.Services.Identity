@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  identity-api:
+    # image: ${REGISTRY:-eshop}/identity.api:${PLATFORM:-linux}-${TAG:-latest}
+    build:
+      context: .
+      dockerfile: src/Api/Dockerfile

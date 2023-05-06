@@ -36,6 +36,16 @@
                 "${workspaceFolder}/src/Api/Api.csproj"
             ],
             "problemMatcher": "$msCompile"
-        }
+        },
+        {
+            "type": "shell",
+            "label": "compose-up",
+            "command": "docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d --build",
+            "presentation": {
+              "reveal": "always",
+              "panel": "new"
+            }
+          }
+
     ]
 }
